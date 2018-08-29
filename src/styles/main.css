@@ -1,3 +1,12 @@
+/* ---- pallete ---- */
+/*
+#EFF7F3
+#ABF2D4
+#2BC487
+#0F4F35
+#030F0A
+*/
+
 /* ---- reset ---- */
 
 html {
@@ -10,5 +19,5 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #F2E1E1
+  background: #EFF7F3
 }
