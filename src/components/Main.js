@@ -1,14 +1,15 @@
 // @flow
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
-class App extends Component<any> {
-  render () {
-    return (
-      <div>
-        YOUH!
-      </div>
-    );
-  }
-}
+import Header from './Header';
+import Presentation from './Presentation';
+
+const App = () => (
+  <Fragment>
+    <Header/>
+    <Presentation/>
+    <Presentation/>
+  </Fragment>
+);
 
 export default App;

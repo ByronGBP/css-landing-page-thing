@@ -19,5 +19,113 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #EFF7F3
+  background: #EFF7F3;
 }
+
+/* ---- typography ---- */
+body {
+  color:#EFF7F3;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+
+button {
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 1px;
+}
+
+.nvx-font-size-lg { font-size: 4em }
+.nvx-font-size-m { font-size: 2em }
+.nvx-font-size-s { font-size: 1.5em }
+
+.nvx-line-height { line-height: 55px }
+
+/* ---- layout ---- */
+.nvx-row-1 {height: 8.33vh;}
+.nvx-row-2 {height: 16.66vh;}
+.nvx-row-3 {height: 25vh;}
+.nvx-row-4 {height: 33.33vh;}
+.nvx-row-5 {height: 41.66vh;}
+.nvx-row-6 {height: 50vh;}
+.nvx-row-7 {height: 58.33vh;}
+.nvx-row-8 {height: 66.66vh;}
+.nvx-row-9 {height: 75vh;}
+.nvx-row-10 {height: 83.33vh;}
+.nvx-row-11 {height: 91.66vh;}
+.nvx-row-12 {height: 100vh;}
+
+.nvx-h-25 {height: 25%;}
+.nvx-h-50 {height: 50%;}
+.nvx-h-75 {height: 75%;}
+.nvx-h-100 {height: 100%;}
+
+.nvx-color-white { color: #EFF7F3 }
+.nvx-color-light { color: #ABF2D4 }
+.nvx-color { color:#2BC487 }
+.nvx-color-dark { color:#0F4F35 }
+.nvx-color-black { color:#030F0A }
+
+.nvx-bg-white { background: #EFF7F3 }
+.nvx-bg-light { background: #ABF2D4 }
+.nvx-bg { background:#2BC487 }
+.nvx-bg-dark { background:#0F4F35 }
+.nvx-bg-black { background:#030F0A }
+
+/* ---- components ---- */
+
+.nvx-header {
+  background: rgba(3, 17, 11, 0.8);
+}
+
+.nvx-bg-presentation {
+  background-image: url('https://dakj3r0k8hnld.cloudfront.net/img/backgrounds/Chordify_discovery_backgrounds1.jpg');
+  background-size: cover;
+  background-position-x: 47%;
+}
+
+.nvx-input {
+  background: transparent;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid rgba(239, 247, 243, 0.8);
+  border-top: 1px solid rgba(239, 247, 243, 0.8);
+  border-radius: 8px;
+  padding: 0;
+  height: 20%;
+  width: 100%;
+  z-index: 10;
+  text-indent: 15px;
+}
+
+.nvx-input:focus ~ label {
+  top: -35px;
+  transition: 0.6s;
+  font-size: 1.5em;
+  color: #EFF7F3;
+}
+
+.nvx-placeholder {
+  position: absolute;
+  color: #ABF2D4;
+  left: 30px;
+  top: -1px;
+  letter-spacing: 0.5px;
+  transition: 0.4s;
+  margin: 0;
+  z-index: 5;
+}
+
+.nvx-thumb {
+  background-image: url('https://dakj3r0k8hnld.cloudfront.net/artwork/artist/tame-impala');
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  margin: 0 0 2px 0;
+  background-size: cover;
+}
+
+.nvx-thumb-text {
+  height: 40%;
+  background-size: cover;
+}
+ 
