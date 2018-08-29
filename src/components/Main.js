@@ -1,15 +1,11 @@
 // @flow
 import React, { Component } from 'react';
 
-type Props = {
-  title: string,
-};
-
-class App extends Component<Props> {
+class App extends Component<any> {
   render () {
     return (
       <div>
-        {this.props.title}
+        YOUH!
       </div>
     );
   }
