@@ -182,7 +182,7 @@ button {
 }
 
 .nvx-thumb {
-  background-image: url('https://dakj3r0k8hnld.cloudfront.net/artwork/artist/tame-impala');
+  background-image: url('../assets/avatar.png');
   height: 70px;
   width: 70px;
   border-radius: 50px;
@@ -192,6 +192,5 @@ button {
 
 .nvx-thumb-text {
   height: 40%;
-  background-size: cover;
 }
  
