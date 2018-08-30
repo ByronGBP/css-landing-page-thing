@@ -8,7 +8,6 @@ const App = () => (
   <Fragment>
     <Header/>
     <Welcome/>
-    <Welcome/>
   </Fragment>
 );
 
