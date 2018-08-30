@@ -7,7 +7,7 @@ type State = {
   messageClass: string
 }
 
-class Slogan extends Component<Props> {
+class Slogan extends Component<Props, State> {
 
   constructor(props: Props) {
     super(props);
