@@ -1,14 +1,14 @@
 // @flow
 import React, { Component, Fragment } from 'react';
 
-import Header from './Header';
-import Presentation from './Presentation';
+import Header from './Header/Header';
+import Welcome from './Welcome/Welcome';
 
 const App = () => (
   <Fragment>
     <Header/>
-    <Presentation/>
-    <Presentation/>
+    <Welcome/>
+    <Welcome/>
   </Fragment>
 );
 

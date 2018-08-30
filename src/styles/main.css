@@ -37,6 +37,7 @@ button {
 .nvx-font-size-lg { font-size: 4em }
 .nvx-font-size-m { font-size: 2em }
 .nvx-font-size-s { font-size: 1.5em }
+.nvx-font-size-xs { font-size: 1em }
 
 .nvx-line-height { line-height: 55px }
 
@@ -74,7 +75,42 @@ button {
 /* ---- components ---- */
 
 .nvx-header {
-  background: rgba(3, 17, 11, 0.8);
+  box-shadow: 0px 5px 10px black;
+}
+
+.nvx-login-button {
+  box-shadow: 0px 5px 10px transparent;
+  padding: 0px 10px 0 10px;
+  margin-bottom: 0px;
+  transition: 0.3s;
+  color: #030F0A;
+}
+
+.nvx-login-button:hover {
+  box-shadow: 0px 5px 10px black;
+  margin-bottom: 1px;
+  transition: 0.3s;
+}
+
+.nvx-login-button:active {
+  background: #030F0A;
+  color: #EFF7F3;
+  transition: 0.3s;
+}
+
+.nvx-logo {
+  background-image: url('../assets/logo.png');
+  background-size: cover;
+  height: calc(1em + 10px);
+  width: calc(1em + 10px);
+  background-repeat: no-repeat;
+  transform: rotate(0deg);
+  transition: 0.6s;
+}
+
+.nvx-logo:hover, .nvx-logo:focus {
+  transform: rotate(180deg);
+  transition: 0.6s;
 }
 
 .nvx-bg-presentation {
